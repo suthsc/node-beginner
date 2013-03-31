@@ -1,0 +1,8 @@
+{
+	"name": "node-beginner",
+	"version": "0.0.1",
+	"description": "The project from the begining Node.js book.",
+	"dependencies": {
+		"formidable": "1.x"
+	}
+}
