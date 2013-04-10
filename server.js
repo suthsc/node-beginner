@@ -11,7 +11,7 @@ function start(route, handle) {
         route(handle, pathname, response, request);
         
     }
-    
+    console.log("Listening on port " + process.env.PORT);
     http.createServer(onRequest).listen(process.env.PORT);
     console.log("Server has started.");
 }
